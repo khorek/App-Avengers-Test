@@ -36,6 +36,8 @@ window.onload = function () {
         }
     }
 
+    // Показываем результат:
+
     function showResult() {
         let key = Object.keys(result).reduce(function (a, b) {
             return result[a] > result[b] ? a : b;
